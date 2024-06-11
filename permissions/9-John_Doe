@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 7 hello | chmod 5 hello | chmod 1 hello
+chmod u+rwx & chmod go+rx & chmod o=wx hello
