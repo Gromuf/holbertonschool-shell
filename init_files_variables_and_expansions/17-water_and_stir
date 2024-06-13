@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo $WATER | tr -d 'water' | tr -d 'a') + $(echo $STIR | tr -d 'stir.' | tr -d 'a') ))
+echo $(( 5#${WATER//[water]/} + 5#${STIR//[stir.]/} ))
