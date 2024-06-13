@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( 5#${WATER//[water]/} + 5#${STIR//[stir.]/} ))
+echo $(( 5#${WATER//[^water]/} + 5#${STIR//[^stir.]/} ))
